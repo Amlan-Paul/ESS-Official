@@ -1,0 +1,82 @@
+body{
+  background-color:black;
+}
+
+
+img{
+  height:315px;
+  weight:330px;
+}
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius:12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+
+.back_icon a{
+  color:MediumSeaGreen;
+  font-size:40px;
+}
+
+.next_icon a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+
+.gkq, .quiz{
+  height: auto;
+  width: 100%;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+
+
+
+
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: red;
+  color:white;
+  padding: 7px 15px;
+  margin-bottom:20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius:15px;
+  
+  
+}
+
+
+.btn:hover{
+  background-color:dodgerblue;
+}

@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+
+.back_icon a{
+  color:MediumSeaGreen;
+  font-size:40px;
+}
+
+.next_icon a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+
+
+
+.ssc_pcb, .ssc_bi, .ssc{
+  height: auto;
+  width: 100%;
+}
+
+
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+
+
+}
+
+
+.btn:hover {
+  background-color: dodgerblue;
+}

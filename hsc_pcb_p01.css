@@ -1,0 +1,205 @@
+.color{
+  background-color:black;
+}
+
+
+
+body{
+  background-color:black;
+}
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius:12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+
+.back_icon a{
+  color:MediumSeaGreen;
+  font-size:40px;
+}
+
+.next_icon a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+
+
+.text{
+  background-color:black;
+  color:hotpink;
+  text-align:center;
+  font-size:30px;
+  font-family: "Audiowide", sans-serif;
+
+  
+}
+
+.hsc_pcb_p01, .image{
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400, 500, 600, 700, 800,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins", sans-serif;
+}
+
+#card{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background:black;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 1200px;
+flex-wrap: wrap;
+padding: 400;
+}
+
+.container .card{
+position: relative;
+width: 320px;
+height: 448px;
+box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+inset -5px 5px 5px rgba(255, 255, 255, 0.5),
+5px 5px 5px rgba(0, 0, 0, 0.05),
+-5px 5px 5px rgba(255, 255, 255, 0.5);
+border-radius: 15px;
+margin: 30px;
+}
+
+.container .card .box{
+position: absolute;
+top: 20px;
+Left: 20px;
+right: 20px;
+bottom: 20px;
+background: black;
+box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
+}
+
+
+.container .card:hover .box{
+ transform:translateY(-50px);
+ box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+ background: linear-gradient(45deg, #b95ce4,#4f29cc);
+}
+
+
+.container .card .box .content{
+padding: 20px;
+text-align: center;
+}
+
+.container .card .box .content h2{
+position: absolute;
+top:-10px;
+right: 30px;
+font-size: 8em;
+color: rgba(0, 0, 0, 0.02);
+transition: 0.5s;
+pointer-events: none;
+}
+
+.container .card:hover .box .content h2
+{
+color: rgba(0,0,0,0.05);
+}
+
+.container .card .box .content h3{
+font-size: 27px;
+font-family: "Lobster", serif;
+letter-spacing: 0.2rem;
+background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+-webkit-background-clip: text; 
+-webkit-text-fill-color: transparent;
+z-index: 1;
+transition: 0.5s;
+
+}
+
+
+
+.container .card .box .content a{
+position: relative;
+display: inline-block; 
+background:#03a9f4;
+padding: 15px 60px;
+margin-top: 15px;
+border-radius: 20px;
+color: #fff;
+text-decoration: none;
+font-weight: 400;
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.container .card:hover .box .content a{
+  background:#ff568f;
+}
+.container .card .box .content p{
+font-size: 25px;
+font-family: 'Lobster', cursive;
+font-weight: 300;
+color: pink;
+z-index: 1;
+transition: 0.5;
+}
+
+.container .card:hover .box .content h3, .container .card:hover .box .content p{ color:#fff;
+}

@@ -1,0 +1,217 @@
+body{
+  background-color:black;
+}
+
+
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: ;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16%;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius:12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: MediumSeaGreen;
+}
+
+
+.back_icon a{
+  color:MediumSeaGreen;
+  font-size:40px;
+}
+
+.next_icon a{
+  float:right;
+  color:MediumSeaGreen;
+  font-size:40px;
+  
+}
+
+
+.chemistry, .image{
+  height: auto;
+  width: 100%;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+
+
+.container{
+position: relative;
+display: flex;
+Justify-content: center;
+width: auto;
+flex-wrap: wrap;
+}
+
+
+
+.container .card{
+position: relative;
+width: 300px;
+padding: 20px;
+margin: 20px;
+background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+}
+
+.container .card::before{
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+width: 50%;
+height: 100%;
+background: rgba(255, 255, 256, 0.2);
+
+
+}
+
+
+
+
+.container .card .icon{
+  margin-bottom: 18px;
+}
+
+
+
+.container .card .icon .pic{
+  max-width: 90px;
+}
+
+
+
+.container .card .content{ 
+position: relative;
+height: 215px; 
+overflow: hidden;
+} 
+
+.container .card.active .content{
+height: auto;
+}
+
+.container .card .content::before{
+content: "";
+position: absolute;
+bottom: 0;
+Left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+.container .card.active .content::before{
+display: none;
+}
+
+.container .card .content h2{
+color: #FFF;
+font-size: 25px;
+font-weight: 800; 
+margin-bottom: 10px;
+}
+
+.container .card .content, .blog{
+font-weight: 400;
+color: #fff;
+}
+
+
+.container .card .more{
+position: relative;
+padding: 10px 15px;
+background: dodgerblue;
+margin-top: 15px;
+display: inline-block;
+cursor: pointer;
+color: #FFF;
+font-weight: 700;
+Letter-spacing: 0.8px;
+font-size: 20;
+border-radius: 20px;
+margin-left: 85px;
+box-shadow: 0 0 10px #ccc;
+transition: 0.5s;
+z-index: 2;
+}
+
+.container .card.active .more{
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.container .card .more::before{
+content: "Read More";
+}
+
+.container .card.active .more::before{
+content: "Read Less";
+}
+
+
+.text{
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#apc{
+  float: right;
+  margin-left: 50px;
+}
+
+#jpl{
+  padding-top: 1px;
+}
+
+
+.apc, .jpl{
+  font-weight: 800;
+  color: #FFD700;
+  font-family: 'Fugaz One';
+  font-size:20px;
+}
+
+.auid, .juid{
+  font-weight: 500;
+  color: #0000ff;
+  font-family: 'Galada';
+  font-size:17px;
+}
+
+
+
