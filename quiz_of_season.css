@@ -85,7 +85,10 @@ body {margin:0;}
 
 .btn:hover{
   background-color:dodgerblue;
+
 }
+
+
 
 
 
@@ -98,12 +101,21 @@ body {margin:0;}
   font-family: 'Lobster', cursive;
 }
 
-h1 {
+#headline{
   font-size: 38px;
   font-weight: normal;
   letter-spacing: .125rem;
   text-transform: none;
   Color: dodgerblue;
+
+}
+
+#headline02 {
+  font-size: 38px;
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: none;
+  Color: red;
 
 }
 
@@ -129,12 +141,17 @@ li span {
   padding: 1rem;
 }
 
-.emoji span {
-  font-size: 1.4rem;
-  padding: 0 .5rem;
-  color: limegreen;
-
+.emoji02 {
+  display: none;
+  padding: 1rem;
 }
+
+#emoji02{
+  color: orangered;
+  font-size: 30px;
+}
+
+
 
 #days,
 #hours,
@@ -143,4 +160,16 @@ li span {
   font-size: 40px;
  
 }
+
+
+#day,
+#hour,
+#minute,
+#second {
+  font-size: 40px;
+  color: white;
+ 
+}
+
+
 
