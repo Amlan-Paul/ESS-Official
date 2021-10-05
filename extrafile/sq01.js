@@ -24,7 +24,7 @@ let questions = [
     choice2: 'অণু',
     choice3: 'মূলক',
     choice4: 'যৌগ',
-    answer: 2,
+    answer: 1,
 },
 
 {
