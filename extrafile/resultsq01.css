@@ -1,0 +1,72 @@
+body{
+background-color: black;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#main {
+height: 100%;
+width: 100%;
+}
+
+h2{
+  /*color: yellowgreen;*/
+  font-size: 26px;
+  font-weight: 900;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 0.07rem;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ffeb3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+}
+
+#inputs {
+width: auto;
+height: 100%;
+position: relative;
+margin: 6% auto;
+border-radius: 1.5em;
+font-weight: bolder;
+/*background-color: #12475f;*/
+padding: 35px;
+color: white;
+text-align: center;
+background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+  
+}
+
+
+#studentname {
+font-weight: bolder;
+background-color: rgba(0,0,0,0.8);
+color: white;
+border:none;
+margin:20px;
+padding: 15px 28px;
+box-shadow: 4px 4px 10px white;
+border-radius: 12px;
+}
+
+#btn {
+  display: inline-block;
+  width: 55%;
+  border: none;
+  background-color: dodgerblue;
+  color:white;
+  padding: 10px 25px;
+  margin-bottom:20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius:15px;
+  font-weight: 600;
+}
+
+
+p{
+  margin-top: 15px;
+}
