@@ -67,6 +67,9 @@ border-radius: 12px;
 }
 
 
-p{
-  margin-top: 15px;
+#qos{
+  font-size: 30px;
+  background: linear-gradient(135deg,#e91e63,#ffeb3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
