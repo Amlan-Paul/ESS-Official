@@ -41,6 +41,11 @@ body{
   letter-spacing: 3px;
 }
 
+
+#minutes, #seconds{
+  font-size: 50px;
+}
+
 .time{
   font-size: 50px;
   display: flex;
