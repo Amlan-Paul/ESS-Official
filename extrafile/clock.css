@@ -8,7 +8,7 @@ body{
 }
 
 #clock{
-  height: 10vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
