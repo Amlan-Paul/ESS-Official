@@ -3,7 +3,7 @@
 #clock{
   height: 100vh;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   background: #10101E;
 }
@@ -53,8 +53,8 @@
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 10px;
-  padding: 0 5px;
+  /*margin-top: 10px;
+  padding: 0 5px;*/
   border-radius: 3px;
 }
       
