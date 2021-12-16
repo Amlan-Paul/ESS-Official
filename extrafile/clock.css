@@ -2,6 +2,11 @@ body{
   background-color: black;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 #clock{
   height: 10vh;
   display: flex;
