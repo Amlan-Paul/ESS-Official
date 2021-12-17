@@ -46,15 +46,15 @@ li {
   display: inline-block;
   font-size: 1.1rem;
   list-style-type: none;
-  padding: 1em;
+  /*padding: 1em;*/
   text-transform: none;
   color: white;
   background-color: purple;
   border-radius: 25px;
 }
 
-#days, #hours, #minutes, #seconds{
-  
+li{
+  padding: 1em;
 }
 
 li span {
