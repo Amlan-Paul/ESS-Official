@@ -289,11 +289,13 @@ body {margin:0;}
 
 .details{
   font-family: "Sofia", sans-serif;
+  font-weight: bold;
   color: DeepPink;
 }
 
 #details{
   font-family: "Sofia", sans-serif;
+  font-weight: bold;
   color: CornflowerBlue;
 }
 
