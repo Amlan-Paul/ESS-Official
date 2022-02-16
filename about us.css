@@ -303,7 +303,8 @@ body {margin:0;}
   display: grid;
   height: 100%;
   place-items: center;
-  background: #17a2b8;
+  /*background: #17a2b8;*/
+  background: black;
 }
 ::selection{
   background: rgba(23,162,184,0.3);
@@ -622,6 +623,23 @@ body {margin:0;}
   opacity: 1;
   pointer-events: auto;
 }
+
+
+
+
+/*Copyright Text CSS*/
+.copyright-text{
+  background: #181818;
+  width: 100%;
+  padding: 8px 0px;
+  text-align: center;
+  color: #999;
+}
+
+.text-color{
+  color: red;
+}
+
 
 
 
