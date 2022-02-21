@@ -57,7 +57,7 @@ border-radius: 12px;
   border: none;
   background-color: dodgerblue;
   color:white;
-  padding: 10px 25px;
+  padding: 13px 0px;
   margin-bottom:20px;
   font-size: 20px;
   cursor: pointer;
@@ -73,3 +73,41 @@ border-radius: 12px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+
+#exit-btn {
+background: red;
+text-decoration: none;
+font-weight: 900;
+}
+
+
+#btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transform: scale(1.03);
+  transition: transform 150ms;
+}
+
+#btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transform: scale(1.03);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
