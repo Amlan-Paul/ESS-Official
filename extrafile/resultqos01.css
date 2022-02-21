@@ -51,7 +51,7 @@ box-shadow: 4px 4px 10px white;
 border-radius: 12px;
 }
 
-#btn {
+#btn, .btn {
   display: inline-block;
   width: 55%;
   border: none;
