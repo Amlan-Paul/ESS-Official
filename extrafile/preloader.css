@@ -14,8 +14,8 @@
 }
 #containerloader {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 265px;
+  height: 265px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -30,6 +30,11 @@
 	font-size: 1.2rem;
 	font-family: sans-serif;
 	text-align: center;
+}
+
+#company_pic{
+  height: 90px;
+  width: 90px;
 }
 .company_name {
   color: dodgerblue;
