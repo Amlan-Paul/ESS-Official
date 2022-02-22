@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./extrafile/new-year.css">
     <link rel="stylesheet" href="./extrafile/victory-day.css">
     <link rel="stylesheet" href="./extrafile/clock.css">
+     <link rel="stylesheet" href="./extrafile/clock02.css">   
+    <!--Pre Loading Css-->
+    <link rel="stylesheet" href="./extrafile/preloader.css">
     
     <!--Clock Header Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +28,31 @@
     
 </head>
 
-  <body onload="initClock()">
+  <body onload="myFunction()">
+      
+      
+ <!--Pre Loading-->
+ <div id="body_loader">
+   <div class='preloader'>
+     <div id='containerloader'>
+       <h1 class="company_name">Science Mind</h1>
+       <div id='rectangles'>
+         <div class='rect q'></div>
+         <div class='rect w'></div>
+         <div class='rect e'></div>
+         <div class='rect r'></div>
+       </div>
+       <div id='inscription'>
+         <i id="loading">Loading</i>
+         <span class="loading">...</span>
+       </div>
+     </div>
+   </div>
+ </div>
+
+<div style="display:none;" id="myDiv"
+
+class="animate-bottom">
 
       <div id="smp">
     
@@ -296,7 +323,7 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
-
+    </div>
 
     
 
@@ -304,6 +331,10 @@
 <script src="js/index.js"></script>
 <script src="./extrafile/new-year.js"></script>
 <script src="./extrafile/clock.js"></script>
+
+<script src="./extrafile/clock02.js"></script>
+<!--Preloader Js-->
+<script src="./extrafile/preloader.js"></script>
 
 
 
