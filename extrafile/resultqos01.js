@@ -164,3 +164,61 @@ else {
   output.innerHTML=` <hr> Your Result <hr> Name: ${definition.name} <br><br>  Email: ${definition.mail} <br><br>  Score:  ${definition.score} <br><br>  Position:  ${definition.position} <br><br>  Highest Score: ${definition.highest_score} <br><br>  Certificate: ${definition.certificate} <hr> কুইজে অংশগ্রহণ করার জন্য আপনাকে অসংখ্য ধন্যবাদ। <hr> `;
 };
 };
+
+
+
+
+
+
+
+
+// selecting dom element
+const textInput = document.querySelector("#studentname");
+const textOutput = document.querySelector("#output");
+const btn = document.querySelector("#btn");
+
+// adding event listener to button
+btn.addEventListener("click", fetchHandler);
+
+// selecting loading div
+const loader = document.querySelector("#loading");
+
+// showing loading
+function displayLoading() {
+  loader.classList.add("display");
+  // to stop loading after some time
+  setTimeout(() => {
+    loader.classList.remove("display");
+  }, 300);
+}
+
+// hiding loading 
+function hideLoading() {
+  loader.classList.remove("display");
+}
+
+// dummy url
+//var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+
+function fetchHandler(event) {
+  displayLoading()
+  var input = textInput.value;
+  var finalURL = buildURL(input);
+
+  fetch(finalURL)
+    .then(response => response.json())
+    .then(json => {
+      hideLoading()
+      textOutput.innerText = json.contents.translated;
+    })
+}
+// creating url format
+// we need 
+// https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json?text="your input"
+
+function buildURL(inputData) {
+  return `${url}?text=${inputData}`;
+}
+
+
+
