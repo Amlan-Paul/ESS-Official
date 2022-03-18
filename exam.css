@@ -44,7 +44,7 @@ body {margin:0;}
 
 
 
-.btn {
+.btn-size {
   display: inline-block;
   width: 100%;
   border: none;
@@ -61,7 +61,7 @@ body {margin:0;}
 }
 
 
-.btn:hover{
+.btn-size:hover{
   background-color:dodgerblue;
 }
 
