@@ -18,13 +18,52 @@
   <!--Main Icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+  <!--Login Custom Styles -->
+  <link rel="stylesheet" href="./extrafile/login.css">
 
 
 
 </head>
 
 
-<body>
+<body onload="myFunction()">
+  
+  <div class="wrapper_body">
+   <div class="wrapper">
+     <div class="title">Login</div>
+     <form>
+       <div class="field">
+         <input type="text" id="username" required>
+         <label>Email Address</label>
+       </div>
+       <div class="field">
+         <input type="password" id="password" required>
+         <label>Password</label>
+       </div>
+       <div class="content">
+         <div class="checkbox">
+           <input type="checkbox" id="remember-me">
+           <label for="remember-me">Remember me</label>
+         </div>
+  
+         <div class="checkbox">
+           <input type="checkbox" id="remember-me">
+           <label for="remember-me">Agree Rules</label>
+         </div>
+         <!--<div class="pass-link"><a href="#">Forgot password?</a></div>-->
+       </div>
+       <div class="field">
+         <button class="btn" id="btn" type="button" onclick="getInfo()">login</button>
+       </div>
+       <div class="signup-link">Not a member? <a class="link" href="./extrafile/signup.html">Signup now</a></div>
+     </form>
+   </div>
+  </div>
+  
+  
+  <div style="display:none;" id="myDiv"
+
+class="animate-bottom">
 
   <div id="sbc">
     
@@ -190,13 +229,17 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+    </div>
 
 
 
   <!--PopUp Massege JS CDN-->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="./extrafile/popup-massege.js"></script>
-
+  
+  <!--Login Js-->
+  <script src="./extrafile/login.js"></script>
+  
 
 </body>
 
